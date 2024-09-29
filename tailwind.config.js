@@ -20,7 +20,10 @@ module.exports = {
       in:["var(--font-in)"],
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+  ],
 }
 
 
