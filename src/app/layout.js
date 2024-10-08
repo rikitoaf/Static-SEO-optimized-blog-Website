@@ -46,7 +46,6 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
-
 };
 
 export default function RootLayout({ children }) {

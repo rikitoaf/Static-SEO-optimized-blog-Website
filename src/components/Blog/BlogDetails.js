@@ -6,7 +6,7 @@ import React from 'react'
 const BlogDetails = ({blog,slug:blogSlug}) => {
    // console.log(blog)
   return (
-    <div className='px-10 bg-accent text-light py-2 flex items-center justify-around flex-wrap text-xl font-medium mx-10 rounded-lg'>
+    <div className='px-2 md:px-10 bg-accent text-light dark:bg-accentDark dark:text-dark py-2 flex items-center justify-around flex-wrap text-lg sm:text-xl font-medium mx-5 md:mx-10 rounded-lg'>
         <time>
             {format(parseISO(blog.publishedAt), 'LLLL d, yyyy')}
         </time>

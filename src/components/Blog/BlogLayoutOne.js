@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { slug } from "github-slugger";
 
-
 const BlogLayoutOne = ({ blog }) => {
   return (
     <div className="group inline-block overflow-hidden rounded-xl">
@@ -31,7 +30,7 @@ const BlogLayoutOne = ({ blog }) => {
         <Link href={blog.url} className="mt-6">
           <h2 className="font-bold capitalize text-sm xs:text-base sm:text-xl md:text-2xl text-light mt-2 sm:mt-4">
             <span
-              className="bg-gradient-to-r from-accent to-accent bg-[length:0px_6px]
+              className="bg-gradient-to-r from-accent to-accent bg-[length:0px_6px] dark:from-accentDark/50 dark:to-accentDark/50
                 group-hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 "
             >
               {blog.title}

@@ -30,7 +30,8 @@ const HomeCoverSection = ({blogs}) => {
                     <h1 className='font-bold capitalize text-lg sm:text-xl md:text-3xl lg:text-4xl'>
                         <span className='bg-gradient-to-r from-accent to-accent
                          bg-[length:0px_6px]
-                        hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 '>
+                        hover:bg-[length:100%_6px]  dark:from-accentDark/50 
+                dark:to-accentDark/50 bg-left-bottom bg-no-repeat transition-[background-size] duration-500 '>
                         {blog.title}
                         </span>
                     </h1>
