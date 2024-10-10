@@ -84,7 +84,7 @@ const Footer = () => {
           &copy;2023 Ageventure Consultancy. All rights reserved.
         </span>
         <Link
-          href="/sitemap.xml"
+          href="https://alumniaebsitedemo-m5yc6i0ha-abdul-fattah-rakibs-projects.vercel.app/sitemap.xml"
           className="text-center underline my-4 md:my-0"
         >
           sitemap.xml

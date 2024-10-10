@@ -6,7 +6,7 @@ const siteMetadata = {
     description: 'A blog is created for alumni students.',
     language: 'en-us',
     theme: 'system', // system, dark or light
-    siteUrl: 'https://agventurewebsite.com', // your website URL
+    siteUrl: 'https://alumniaebsitedemo-m5yc6i0ha-abdul-fattah-rakibs-projects.vercel.app/', // your website URL
     siteLogo: '/logo.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'abdulfattahrakib@gmail.com', 
