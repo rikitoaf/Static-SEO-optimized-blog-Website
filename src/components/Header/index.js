@@ -9,6 +9,8 @@ import {
   SunIcon,
   TwitterIcon,
   MoonIcon,
+  LinkedinIcon,
+  GithubIcon,
 } from "../Icons";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
 import { cx } from "@/src/utils";
@@ -88,19 +90,19 @@ const Header = () => {
         </nav>
       <div className="hidden sm:flex items-center">
         <a
-          href="https://"
+          href="https://facebook.com/king.t.back"
           className="inline-block w-6 h-6 mr-4 dark:fill-light"
         >
           <FacebookIcon className="hover:scale-125   transition-all ease duration-200  " />{" "}
         </a>
-        <a href="https://" className="inline-block w-6 h-6 mr-4">
-          <TwitterIcon className="hover:scale-125  transition-all ease duration-200  " />{" "}
+        <a href="https://github.com/rikitoaf" className="inline-block w-6 h-6 mr-4">
+          <GithubIcon className="hover:scale-125  transition-all ease duration-200  " />{" "}
         </a>
-        <a href="https://" className="inline-block w-6 h-6 mr-4">
+        <a href="https://instagram.com/king.t.back" className="inline-block w-6 h-6 mr-4">
           <InstagramIcon className="hover:scale-125  transition-all ease duration-200  " />{" "}
         </a>
-        <a href="https://" className="inline-block w-6 h-6 mr-4">
-          <DribbbleIcon className="hover:scale-125  transition-all ease duration-200  " />{" "}
+        <a href="https://www.linkedin.com/in/abdul-fattah-59099b21b/" className="inline-block w-6 h-6 mr-4">
+          <LinkedinIcon className="hover:scale-125  transition-all ease duration-200  " />{" "}
         </a>
       </div>
     </header>

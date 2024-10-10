@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
-import { DribbbleIcon, FacebookIcon, GithubIcon, LinkedinIcon, TwitterIcon } from "../Icons";
+import {  FacebookIcon, GithubIcon, InstagramIcon, LinkedinIcon } from "../Icons";
 import Link from "next/link";
 
 
@@ -42,7 +42,7 @@ const Footer = () => {
       </form>
       <div className="flex items-center mt-8">
         <a
-          href= "https://"
+          href= "https://www.linkedin.com/in/abdul-fattah-59099b21b/"
           className="inline-block w-6 h-6 mr-4"
           aria-label="Reach out to me via LinkedIn"
           target="_blank"
@@ -51,16 +51,16 @@ const Footer = () => {
           <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a
-          href="https://"
+          href="https://github.com/rikitoaf"
           className="inline-block w-6 h-6 mr-4"
           aria-label="Reach out to me via Twitter"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
+          <GithubIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a
-          href="https://"
+          href="https://facebook.com/king.t.back"
           className="inline-block w-6 h-6 mr-4 fill-light"
           aria-label="Check my profile on Github"
           target="_blank"
@@ -69,13 +69,13 @@ const Footer = () => {
           <FacebookIcon className="fill-light dark:fill-dark  hover:scale-125 transition-all ease duration-200" />
         </a>
         <a
-          href="https://"
+          href="https://instagram.com/king.t.back"
           className="inline-block w-6 h-6 mr-4"
           aria-label="Check my profile on Dribbble"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <DribbbleIcon className="hover:scale-125 transition-all ease duration-200" />
+          <InstagramIcon     className="hover:scale-125 transition-all ease duration-200" />
         </a>
       </div>
 
